@@ -9,6 +9,7 @@ import com.sofka.taller.contadornumeros.ContadorFor;
 import com.sofka.taller.contadornumeros.ContadorWhile;
 import com.sofka.taller.contattexto.ContarTexto;
 import com.sofka.taller.diasemana.DiaSemana;
+import com.sofka.taller.electrodomestico.MenuAppliance;
 import com.sofka.taller.eliminarespacio.EliminarEspacio;
 import com.sofka.taller.fechaactual.FechaHora;
 import com.sofka.taller.mayorcero.MayorQueCero;
@@ -34,6 +35,7 @@ public class App
         //FechaHora.getInstance().fechaActual();
         //NumeroHAstaMil.getInstance().imprimirNumeros();
         //ICinematografica.getInstance().gestionCinema();
-        MenuIMB.showMenu();
+        //MenuIMB.showMenu();
+        MenuAppliance.showAplliance();
     }
 }

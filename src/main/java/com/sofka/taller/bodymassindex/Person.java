@@ -6,21 +6,17 @@ package com.sofka.taller.bodymassindex;
  * @version 1.0.0 - 04 de junio de 2022
  */
 public class Person {
-    private String name;
-    private Integer age;
+    private String name = "";
+    private Integer age = 0;
     private String DNI;
     private Character sex = "H".charAt(0);
-    private Double weight;
-    private Double height;
+    private Double weight = 0.00;
+    private Double height = 0.00;
     
     /**
      * Constructor que no recibe argumentos (toma valores por default)
      */
     public Person() {
-        this.name = "";
-        this.age = 0;
-        this.weight = (double) 0;
-        this.height = (double) 0;
 
         generateDNI();
     }
@@ -34,8 +30,6 @@ public class Person {
     public Person(String name, Integer age, String sex) {
         this.name = name;
         this.age = age;
-        this.weight = (double) 0;
-        this.height = (double) 0;
         
         checkSex( sex );
 
@@ -194,10 +188,7 @@ public class Person {
      * @param sex
     */
     public void checkSex( String sex ){
-        
-        String localSex = this.sex.toString();
-        
-        if(!localSex.equalsIgnoreCase(sex)){
+        if(sex.equalsIgnoreCase("M")){
             this.sex =  "M".charAt(0);
         }
     }
