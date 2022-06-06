@@ -1,5 +1,7 @@
 package com.sofka.taller;
 
+import com.sofka.taller.bodymassindex.MenuIMB;
+import com.sofka.taller.cinematografica.UICinematografica;
 import com.sofka.taller.circulo.UICirculo;
 import com.sofka.taller.comparacionnumeros.UIComparador;
 import com.sofka.taller.comparartexto.ComparadorTexto;
@@ -30,6 +32,8 @@ public class App
         //ContarTexto.getInstance().contatTexto();
         //ComparadorTexto.getInstance().compararTexto();
         //FechaHora.getInstance().fechaActual();
-        NumeroHAstaMil.getInstance().imprimirNumeros();
+        //NumeroHAstaMil.getInstance().imprimirNumeros();
+        //ICinematografica.getInstance().gestionCinema();
+        MenuIMB.showMenu();
     }
 }

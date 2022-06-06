@@ -17,7 +17,7 @@ public class ComparadorTexto {
 
     /**
      * Método para generar la instancia de la clase
-     * @return new DiaSemana()
+     * @return new ComparadorTexto()
      */
     public static ComparadorTexto getInstance(){
         return new ComparadorTexto();
