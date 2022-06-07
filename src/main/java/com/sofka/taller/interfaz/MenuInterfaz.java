@@ -1,8 +1,5 @@
 package com.sofka.taller.interfaz;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.sofka.taller.utilidades.Messages;
 import com.sofka.taller.utilidades.MyScanner;
 
@@ -39,7 +36,7 @@ public class MenuInterfaz {
                 message.showMessage("La cantidad de series prestada es: " + countSeriesBorrowed(series) + " y fueron devueltas");
                     break;
                 case 2:
-                message.showMessage("La cantidad de series prestada es: " + countVideogamesBorrowed(videogames) + " y fueron devueltos");
+                message.showMessage("La cantidad de videojuegos prestados es: " + countVideogamesBorrowed(videogames) + " y fueron devueltos");
                     break;
                 case 3:
                     message.showMessage("La serie mas larga es:\n" + series[0].toString());

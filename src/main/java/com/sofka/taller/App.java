@@ -22,22 +22,39 @@ public class App
 {
     public static void main( String[] args )
     {
+        //Ejercicio 1 y 2
         //UIComparador.menuComparadorNumeros();
+        //Ejercicio 3
         //UICirculo.menuCirculo();
+        //Ejercicio 4
         //UIProducto.menuProducto();
+        //Ejercicio 5
         //ContadorFor.contarNumeros();
+        //Ejercicio 6
         //ContadorWhile.contarNumeros();
+        //Ejercicio 7
         //MayorQueCero.getInstance().imprimirNumeroMayorQueCero();
+        //Ejercicio 8
         //DiaSemana.getInstance().comprobarDiaLaboral();
+        //Ejercicio 9
         //ReemplazarA.getInstance().cambiar();
+        //Ejercicio 10
         //EliminarEspacio.getInstance().quitarEspacio();
+        //Ejercicio 11
         //ContarTexto.getInstance().contatTexto();
+        //Ejercicio 12
         //ComparadorTexto.getInstance().compararTexto();
+        //Ejercicio 13
         //FechaHora.getInstance().fechaActual();
+        //Ejercicio 14
         //NumeroHAstaMil.getInstance().imprimirNumeros();
+        //Ejercicio 15
         //ICinematografica.getInstance().gestionCinema();
+        //Ejercicio 16
         //MenuIMB.showMenu();
+        //Ejercicio 17
         //MenuAppliance.showAplliance();
-        MenuInterfaz.getInstance().showMenu();
+        //Ejercicio 18
+        //MenuInterfaz.getInstance().showMenu();
     }
 }

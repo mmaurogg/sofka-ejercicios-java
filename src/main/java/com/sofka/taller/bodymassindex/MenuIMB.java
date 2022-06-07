@@ -49,15 +49,15 @@ public class MenuIMB {
         Person person1 = new Person(name, age, sex);
         Person person2 = new Person();
         
-        message.showMessage("Primer método: Todos los datos");
+        message.showMessage("\n\nPrimer método: Todos los datos");
         message.showMessage("Datos del segundo método :\n" + person.toString());
         message.showMessage(messageIBM(person));
 
-        message.showMessage("Segundo método: sin peso ni altura");
+        message.showMessage("\n\nSegundo método: sin peso ni altura");
         message.showMessage("Datos del tercer metodo :\n" + person1.toString());
         message.showMessage(messageIBM(person1));
 
-        message.showMessage("Primer método: constructor vacío y agregar datos por set");
+        message.showMessage("\n\nTercer método: constructor vacío y agregar datos por set");
         person2.setName(name);
         person2.setAge(age);
         person2.checkSex(sex);
