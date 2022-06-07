@@ -12,6 +12,7 @@ import com.sofka.taller.diasemana.DiaSemana;
 import com.sofka.taller.electrodomestico.MenuAppliance;
 import com.sofka.taller.eliminarespacio.EliminarEspacio;
 import com.sofka.taller.fechaactual.FechaHora;
+import com.sofka.taller.interfaz.MenuInterfaz;
 import com.sofka.taller.mayorcero.MayorQueCero;
 import com.sofka.taller.numamil.NumeroHAstaMil;
 import com.sofka.taller.precioproducto.UIProducto;
@@ -36,6 +37,7 @@ public class App
         //NumeroHAstaMil.getInstance().imprimirNumeros();
         //ICinematografica.getInstance().gestionCinema();
         //MenuIMB.showMenu();
-        MenuAppliance.showAplliance();
+        //MenuAppliance.showAplliance();
+        MenuInterfaz.getInstance().showMenu();
     }
 }

@@ -52,11 +52,19 @@ public class MenuAppliance {
         message.showMessage("El precio total de los televisores es: " + totalPriceTelevisor);
         }
 
-
+    /**
+     * Función que genera un npumero aleatorio
+     * @param range el tope del rango en el que se generará [0, range] 
+     * @return numero aleatorio en el rango [0, range]
+     */
     private static Integer generateRound(int range){
         return Integer.valueOf(String.valueOf(Math.round(Math.random()*range)));
     }
 
+    /**
+     * Funcion para llenar un arreglo de electrodomesticos
+     * @return arreglo de electrodomesticos de 10 posiciones
+     */
     private static Appliance[] generateAppliances() {
 
         Appliance[] appliances = new Appliance[10];
