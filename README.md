@@ -25,3 +25,6 @@ Cada ejercicio tiene un comentario en la parte superior que indica a qué ejerci
 * Punto 17: electrodomestico
 * Punto 18: interfaz
 
+* video ejercicio 16: https://youtu.be/nzVza89VFME
+* video ejercicio 17: https://youtu.be/89hYpo05m18
+* video ejercicio 18: https://youtu.be/HRVXEYD-cyM
